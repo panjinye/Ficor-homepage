@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Github",
+    "icon": "/images/icon/github.png",
+    "tip": "去 Github 看看",
+    "url": "https://github.com/panjinye"
+  },
+  {
+    "name": "Mastodon",
+    "icon": "/images/icon/Mastodon.png",
+    "tip": "你懂的 ~",
+    "url": "https://mastodon.social/@ficor"
+  },
+  {
+    "name": "QQ",
+    "icon": "/images/icon/qq.png",
+    "tip": "有什么事吗",
+    "url": "https://res.abeim.cn/api/qq/?qq=316160777"
+  },
+  {
+    "name": "Email",
+    "icon": "/images/icon/email.png",
+    "tip": "来封 Email ~",
+    "url": "mailto:panjinye@gmail.com"
+  },
+  {
+    "name": "Weixin",
+    "icon": "/images/icon/Weixin.png",
+    "tip": "你懂的 ~",
+    "url": "https://img.ficor.net/uploads/2026/01/696070480f4e3.webp"
+  },
+  {
+    "name": "Twitter",
+    "icon": "/images/icon/twitter.png",
+    "tip": "你懂的 ~",
+    "url": "https://twitter.com/JinyePan"
+  },
+  {
+    "name": "Rss",
+    "icon": "/images/icon/Rss.png",
+    "tip": "你懂的 ~",
+    "url": "https://ficor.net/feed"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "icon": "Home",
+    "name": "起始页",
+    "link": "https://panjinye.com"
+  },
+  {
+    "icon": "Compass",
+    "name": "荒野菲克",
+    "link": "https://linglingtu.com"
+  },
+  {
+    "icon": "Book",
+    "name": "Ficor's Path of Law",
+    "link": "https://lawpan.cc"
+  },
+  {
+    "icon": "Blog",
+    "name": "荒野菲克",
+    "link": "https://ficor.net"
+  },
+  {
+    "icon": "Star",
+    "name": "静夜思",
+    "link": "https://blog.ficor.net"
+  },
+  {
+    "icon": "History",
+    "name": "历史",
+    "link": "https://history.ficor.net"
+  },
+  {
+    "icon": "Book",
+    "name": "Vercel",
+    "link": "https://vercel.com"
+  },
+  {
+    "icon": "Cloud",
+    "name": "Github",
+    "link": "https://github.com"
+  },
+  {
+    "icon": "Paperclip",
+    "name": "西城往事",
+    "link": "https://xifeng.net"
+  },
+  {
+    "icon": "PaperPlane",
+    "name": "Momes",
+    "link": "https://mingchuan.net"
+  },
+  {
+    "icon": "Image",
+    "name": "菲克图床",
+    "link": "https://img.ficor.cc"
+  }
+  
+]

@@ -119,5 +119,17 @@ export default ({ mode }) =>
           pure_funcs: ["console.log"],
         },
       },
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vue: ['vue'],
+            element: ['element-plus'],
+            pinia: ['pinia', 'pinia-plugin-persistedstate'],
+            axios: ['axios'],
+            swiper: ['swiper'],
+            aplayer: ['aplayer', '@worstone/vue-aplayer'],
+          }
+        }
+      }
     },
   });

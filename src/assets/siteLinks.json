@@ -53,6 +53,11 @@
     "icon": "Image",
     "name": "菲克图床",
     "link": "https://img.ficor.cc"
+  },
+  {
+    "icon": "Compass",
+    "name": "菲克导航",
+    "link": "https://nav.ficor.cc"
   }
   
 ]

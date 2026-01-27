@@ -53,7 +53,7 @@ const siteUrl = computed(() => {
 // 简介区域文字
 const descriptionText = reactive({
   hello: import.meta.env.VITE_DESC_HELLO || "Hello World !",
-  text: import.meta.env.VITE_DESC_TEXT || "一个新鲜出炉的小站，记录生活的点滴",
+  text: import.meta.env.VITE_DESC_TEXT || "一个新鲜出炉的小站在路上的思绪与脚印",
 });
 
 // 切换右侧功能区
@@ -81,7 +81,7 @@ watch(
       descriptionText.text = import.meta.env.VITE_DESC_TEXT_OTHER || "哎呀，这都被你发现了";
     } else {
       descriptionText.hello = import.meta.env.VITE_DESC_HELLO || "Hello World !";
-      descriptionText.text = import.meta.env.VITE_DESC_TEXT || "一个新鲜出炉的小站，记录生活的点滴";
+      descriptionText.text = import.meta.env.VITE_DESC_TEXT || "一个新鲜出炉的小站在路上的思绪与脚印";
     }
   },
 );

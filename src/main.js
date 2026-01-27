@@ -14,6 +14,9 @@ pinia.use(piniaPluginPersistedstate);
 app.use(pinia);
 app.mount("#app");
 
+// 设置文档标题
+document.title = import.meta.env.VITE_SITE_NAME || "Ficor's Homepage";
+
 // PWA
 navigator.serviceWorker.addEventListener("controllerchange", () => {
   // 弹出更新提醒

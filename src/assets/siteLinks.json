@@ -2,12 +2,12 @@
   {
     "icon": "Home",
     "name": "起始页",
-    "link": "https://panjinye.com"
+    "link": "https://ficor.cc"
   },
   {
     "icon": "Compass",
     "name": "荒野菲克",
-    "link": "https://linglingtu.com"
+    "link": "https://ficor.net"
   },
   {
     "icon": "Book",
@@ -16,8 +16,8 @@
   },
   {
     "icon": "Blog",
-    "name": "荒野菲克",
-    "link": "https://ficor.net"
+    "name": "Ficor",
+    "link": "https://vii.ink"
   },
   {
     "icon": "Star",
@@ -40,19 +40,49 @@
     "link": "https://github.com"
   },
   {
+    "icon": "PaperPlane",
+    "name": "Momes",
+    "link": "https://memos.ficor.net"
+  }, 
+  {
     "icon": "Paperclip",
     "name": "西城往事",
     "link": "https://xifeng.net"
   },
   {
-    "icon": "PaperPlane",
-    "name": "Momes",
-    "link": "https://memos.ficor.net"
-  },
-  {
     "icon": "Image",
     "name": "菲克图床",
     "link": "https://img.ficor.cc"
+  },
+  {
+    "icon": "Compass",
+    "name": "菲克导航",
+    "link": "https://demo1.ficor.cc"
+  },
+   {
+    "icon": "Blog",
+    "name": "荒野菲克",
+    "link": "https://demo2.ficor.cc"
+  },
+   {
+    "icon": "Blog",
+    "name": "荒野菲克",
+    "link": "https://ficor.cc"
+  },
+   {
+    "icon": "Blog",
+    "name": "荒野菲克",
+    "link": "https://ficor.cc"
+  },
+   {
+    "icon": "Blog",
+    "name": "荒野菲克",
+    "link": "https://ficor.cc"
+  },
+   {
+    "icon": "Blog",
+    "name": "荒野菲克",
+    "link": "https://ficor.cc"
   },
   {
     "icon": "Compass",

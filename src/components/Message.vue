@@ -37,11 +37,11 @@ import { mainStore } from "@/store";
 const store = mainStore();
 
 // 主页站点logo
-const siteLogo = import.meta.env.VITE_SITE_MAIN_LOGO;
+const siteLogo = import.meta.env.VITE_SITE_MAIN_LOGO || "/images/icon/logo.png";
 // 站点链接
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "imsyy.top".split(".");
+  if (!url) return "ficor.cc".split(".");
   // 判断协议前缀
   if (url.startsWith("http://") || url.startsWith("https://")) {
     const urlFormat = url.replace(/^(https?:\/\/)/, "");
@@ -52,8 +52,8 @@ const siteUrl = computed(() => {
 
 // 简介区域文字
 const descriptionText = reactive({
-  hello: import.meta.env.VITE_DESC_HELLO,
-  text: import.meta.env.VITE_DESC_TEXT,
+  hello: import.meta.env.VITE_DESC_HELLO || "Hello World !",
+  text: import.meta.env.VITE_DESC_TEXT || "一个新鲜出炉的小站，记录生活的点滴",
 });
 
 // 切换右侧功能区
@@ -77,11 +77,11 @@ watch(
   () => store.boxOpenState,
   (value) => {
     if (value) {
-      descriptionText.hello = import.meta.env.VITE_DESC_HELLO_OTHER;
-      descriptionText.text = import.meta.env.VITE_DESC_TEXT_OTHER;
+      descriptionText.hello = import.meta.env.VITE_DESC_HELLO_OTHER || "Oops !";
+      descriptionText.text = import.meta.env.VITE_DESC_TEXT_OTHER || "哎呀，这都被你发现了";
     } else {
-      descriptionText.hello = import.meta.env.VITE_DESC_HELLO;
-      descriptionText.text = import.meta.env.VITE_DESC_TEXT;
+      descriptionText.hello = import.meta.env.VITE_DESC_HELLO || "Hello World !";
+      descriptionText.text = import.meta.env.VITE_DESC_TEXT || "一个新鲜出炉的小站，记录生活的点滴";
     }
   },
 );

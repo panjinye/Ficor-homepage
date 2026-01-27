@@ -53,13 +53,13 @@ const fullYear = new Date().getFullYear();
 // const siteStartDate = ref(import.meta.env.VITE_SITE_START);
 const startYear = ref(
   import.meta.env.VITE_SITE_START?.length >= 4 ? 
-  import.meta.env.VITE_SITE_START.substring(0, 4) : null
+  import.meta.env.VITE_SITE_START.substring(0, 4) : "2026"
 );
-const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
-const siteAuthor = ref(import.meta.env.VITE_SITE_AUTHOR);
+const siteIcp = ref(import.meta.env.VITE_SITE_ICP || "鲁ICP备2026003689号");
+const siteAuthor = ref(import.meta.env.VITE_SITE_AUTHOR || "Ficor");
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "https://www.imsyy.top";
+  if (!url) return "https://ficor.cc";
   // 判断协议前缀
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
     return "//" + url;

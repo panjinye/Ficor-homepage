@@ -10,12 +10,12 @@
     "link": "https://ficor.net"
   },
   {
-    "icon": "Book",
-    "name": "Ficor's Path of Law",
+    "icon": "Archive",
+    "name": "Law",
     "link": "https://lawpan.cc"
   },
   {
-    "icon": "Blog",
+    "icon": "AppleAlt",
     "name": "Ficor",
     "link": "https://vii.ink"
   },
@@ -35,7 +35,7 @@
     "link": "https://vercel.com"
   },
   {
-    "icon": "Cloud",
+    "icon": "Code",
     "name": "Github",
     "link": "https://github.com"
   },
@@ -52,40 +52,40 @@
   {
     "icon": "Image",
     "name": "菲克图床",
-    "link": "https://img.ficor.cc"
+    "link": "https://img.ficor.net"
   },
   {
     "icon": "Compass",
-    "name": "菲克导航",
+    "name": "Astrogon",
     "link": "https://demo1.ficor.cc"
   },
    {
     "icon": "Blog",
-    "name": "荒野菲克",
+    "name": "",
     "link": "https://demo2.ficor.cc"
   },
    {
-    "icon": "Blog",
-    "name": "荒野菲克",
-    "link": "https://ficor.cc"
+    "icon": "Globe",
+    "name": "Ficor",
+    "link": "https://demo.ficor.cc"
   },
    {
-    "icon": "Blog",
-    "name": "荒野菲克",
-    "link": "https://ficor.cc"
+    "icon": "Snowflake",
+    "name": "Wing",
+    "link": "https://demo3.ficor.cc"
   },
    {
-    "icon": "Blog",
+    "icon": "SpaceShuttle",
     "name": "荒野菲克",
-    "link": "https://ficor.cc"
+    "link": "https://linglingtu.com"
   },
    {
-    "icon": "Blog",
+    "icon": "StarOfDavid",
     "name": "荒野菲克",
-    "link": "https://ficor.cc"
+    "link": "https://mingchuan.net"
   },
   {
-    "icon": "Compass",
+    "icon": "StarRegular",
     "name": "菲克导航",
     "link": "https://nav.ficor.cc"
   }
